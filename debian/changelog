@@ -1,3 +1,9 @@
+vyatta-cluster (0.11.25+vyos1+helium2) unstable; urgency=low
+
+  * Added ucast option to helium branch
+
+ -- Mike Wessling <mwessling@VyosBuildISO.localdomain>  Wed, 05 Aug 2015 17:27:43 +0200
+
 vyatta-cluster (0.11.25+vyos1+helium1) unstable; urgency=low
 
   * New branch
