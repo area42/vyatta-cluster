@@ -216,9 +216,7 @@ sub ha_cf {
   		       my ($uintf,$upip) = split(/:/,$ucast);
   		       if ($uintf eq $intf) {
   			       $interfaces .= "ucast $intf $upip\n";
-  		       } else {
-               return (undef, "$intf is not a valid interface");
-             }
+  		       } 
   	     }
       } else {
       	$interfaces .= "mcast $intf ";
