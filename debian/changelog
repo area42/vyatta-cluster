@@ -1,3 +1,11 @@
+vyatta-cluster (0.11.25+vyos1+helium3) unstable; urgency=low
+
+  * Fixed the issue of multiple ucast interfaces being reported as error
+    on commits It was a braino. The current release will allow invalid
+    or nonexisting interfaces in the configuration but only adds
+
+ -- Mike Wessling <mike.wessling@bitbrains.nl>  Thu, 27 Aug 2015 11:04:57 +0200
+
 vyatta-cluster (0.11.25+vyos1+helium2) unstable; urgency=low
 
   * Added ucast option to helium branch
